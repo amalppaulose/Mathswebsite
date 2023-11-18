@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=yes width=device-width, initial-scale=1.0">
+    <title>Maths Website</title>
+    <style>
+        #container
+        {
+            width: 1050px;
+            margin: 0 auto;
+        }
+        #brand
+        {
+          float: left;
+        }
+        #header
+        {
+          height: 100px;
+          padding: 10px 0px;
+        }
+        h1 a
+        {
+          font-size: 50px;
+          font-weight: 100;
+          color: purple;
+          text-decoration: none;
+        }
+        #searchbox
+        {
+          float: right;
+          background: linear-gradient(green, yellow);
+          width: 400px;
+          height: 50px;
+          margin-top: 8px;
+          padding: 20px 20px 20px 20px;
+          
+        }
+
+        .text
+        {
+          float: left;
+          width: 200px;
+          padding: 5px;
+          font-size: 15px;
+          color: orange;
+          margin-top: 9px;
+          background: white url(search.png) right center no-repeat;
+        }
+        .submit
+        {
+          float: right;
+          padding: 5px;
+          font-weight: bold;
+          color: white;
+          background: blueviolet;
+          margin-top: 9px;
+        }
+        .clear
+        {
+          clear: both;
+        }
+        #menu
+        {
+          height: 70px;
+          background: linear-gradient(yellow, grey);
+          padding: 10px 0;
+        }
+        ul
+        {
+          list-style: none;
+        }
+        #menu ul li
+        {
+         float: left;
+         padding: 0 10px;
+         height: 20px;
+         border-right: 1px solid black;
+        }
+        #menu ul li:last-child
+        {
+          border-right: none;
+        }
+        #menu ul li a
+        {
+          text-decoration: none;
+          font-size: 17px;
+          color: purple;
+          line-height: 20px;
+          transition: font-size 0.1s ease;
+        }
+        #menu ul li a:hover, #menu ul li a.active
+        {
+          font-size: 20px;
+          font-weight: bold;
+          color: purple;
+
+        }
+        #introduction
+        {
+          background: linear-gradient(green,yellow);
+          padding: 10px;
+          margin: 16px 0p;
+          margin-top: 10px;
+        }
+        #introduction h3
+        {
+         font-size: 45px;
+         font-weight: normal;
+         color: rgb(13, 34, 13);
+        }
+        #introduction p
+        {
+          font-size: 25px;
+          text-align: justify;
+        }
+        .sidebar
+        {
+          height: 500px;
+          width: 400px;
+          border: 1px solid lightgreen;
+          border-radius: 20px;
+          padding: 10px 30px;
+          margin-top: 10px;
+        }
+        .sidebar h3
+        {
+          color: purple;
+          font-size: 30px;
+          text-decoration: none;
+        }
+        .sidebar ul li a
+        {
+          text-decoration: none;
+          color: purple;
+          transition: font-size 0.3s ease;
+
+        }
+        .sidebar ul li a:hover ,.sidebar ul li a:active
+        {
+          text-decoration: none;
+          font-size: 140px;
+          color: darkorchid;
+          font-weight: bold;
+        } 
+        #leftsidebar
+        {
+          float: left;
+        }
+        #leftsidebar ul
+        {
+          padding-top: 8px;
+        }
+        #leftsidebar ul li
+        {
+          padding-left: 6px;
+          padding-bottom: 10px;
+          list-style-image: url(right\ arrow.png);
+        }
+       
+        #leftsidebar ul li a
+        {
+          text-decoration: none;
+          font-size: 20px;
+          color: purple;
+        }
+        #rightsidebar
+        {
+          float: right;
+        }
+        #rightsidebar ul li
+        {
+          padding-left: 6px;
+          padding-bottom: 30px;
+          list-style-image: url(tick.png);
+        }
+        #rightsidebar ul li a
+        {
+          text-decoration: none;
+          font-size: 20px;
+          color: purple;
+        }
+        .footer
+        {
+          height: 60px;
+          background: linear-gradient(green,yellow);
+          padding: 10px 30px;
+          margin-top: 10px;
+
+        }
+        </style>
+</head>
+<body>
+  <div id="container">
+     <div id="header">
+      <div id="brand">
+        <h1><a href="#">Maths the Fun way.</a></h1>
+      </div>
+      <div id="searchbox">
+        <form method="get">
+         <input type="text" class="text"> 
+         <input type="submit" value="search a topic" class="submit">
+        </form>
+      </div>
+      <div class="clear" >
+
+      </div>
+     </div>
+     <div id="menu">
+      <ul>
+        <li><a href="#" class="active">HOME</a></li>
+        <li><a href="#">ONLINE TUTORIALS</a></li>
+        <li><a href="#">GET A PRIVATE TUTOR</a></li>
+        <li><a href="#">SIGN UP</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+
+     </div>
+     <div id="introduction">
+         <h3>Do you need help with maths?</h3>
+         <p>Our website uses an interactive methodology of teaching Maths 
+          using the latest web technologies.
+          Your learning experience with us is guaranteed 
+          to be intuitive and fun. You will have fun while learning. This is the secret 
+          of our outstanding results. Check reviews from our students.</p>
+     </div>
+     <div id="leftsidebar" class="sidebar">
+         <h3>Go to:</h3>
+         <ul>
+          <li><a href="#">Year 1 Free Lessons</a></li>
+          <li><a href="#">Year 2 Free Lessons</a></li>
+          <li><a href="#">Year 3 Free Lessons</a></li>
+          <li><a href="#">Year 4 Free Lessons</a></li>
+          <li><a href="#">Year 5 Free Lessons</a></li>
+          <li><a href="#">Year 6 Free Lessons</a></li>
+          <li><a href="#">Year 7 Free Lessons</a></li>
+          <li><a href="#">Year 8 Free Lessons</a></li>
+          <li><a href="#">Year 10 Free Lessons</a></li>
+          <li><a href="#">Year 11Free Lessons</a></li>
+          <li><a href="#">Year 12 Free Lessons</a></li>
+         </ul>
+     </div>
+     <div id="rightsidebar" class="sidebar">
+       <h3>Why us?</h3>
+       <ul>
+        <li><a href="">Our teachers are available any time</a></li>
+        <li><a href="">Available on Laptop Tablet and Phones</a></li>
+        <li><a href="">30 day Money Back Guarantee</a></li>
+        <li><a href="">Interactive games for enjoyable experience</a></li>
+        <li><a href="">Learn at your own pace</a></li>
+        <li><a href="">complete curriculum</a></li>
+       </ul>
+     </div>
+     <div class="clear"></div>
+     <footer class="footer">
+      <div>
+        <p>company name copyright &copy; 2022-2024</p>
+      </div>
+     </footer>
+  </div>  
+</body>
+</html>
